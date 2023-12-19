@@ -8,9 +8,9 @@ public class leapyear {
 
         if (isValidYear(year)) {
             if (isLeapYear(year)) {
-                System.out.println("YES");
+                System.out.println("YES, leap year");
             } else {
-                System.out.println("NO");
+                System.out.println("NO, not leap year");
             }
         } else {
             System.out.println("Invalid input. Please enter a 4-digit year.");
